@@ -1,0 +1,31 @@
+:root {
+  --main-bg-color: #a6f5e3
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: var(--main-bg-color);
+}
+
+.header-background {
+  background-color: var(--main-bg-color);
+  transform: skew(-45deg);
+  height: 100px;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid red;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
